@@ -2,10 +2,11 @@
 import requests
 from stripAccents import strip_accents
 
+#KEY AND BASE URL
 API_KEY = 'AIzaSyBgKkGlGYYB6Sa0i2SZEcN36sY0vsdzu8A'
 BASE_URL = 'https://maps.googleapis.com/maps/api/geocode/json?'
 
-
+#FUNCTION TO GET AN ADRESS COORDINATES USING GOOGLE MAP'S GEOCODE API
 def getCoordenates(address):
     params = {
         'key': API_KEY,

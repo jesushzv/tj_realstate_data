@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 import unicodedata
 
+#UTILITY FUNCTION TO STRIP ACCENTS SINCE WE ARE DEALING WITH A MEXICAN WEBSITE
+
 def strip_accents(s):
 
     try:
